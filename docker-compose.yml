@@ -1,0 +1,18 @@
+version: '3.5'
+
+services:
+  dovecot:
+    build: .
+    hostname: dovecot
+    restart: unless-stopped
+    ports:
+      - "24:24"
+      - 110:110
+      - 143:143
+      - 993:993
+      - 995:995
+      - 994:994
+    tmpfs: /run
+    volumes:
+      - ./conf/dovecot:/etc/dovecot
+      - ./mailboxes:/home/vmail
