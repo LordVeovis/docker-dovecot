@@ -22,7 +22,7 @@ Please look at the official [documentation](https://wiki2.dovecot.org/) for help
 
 ## Contributing
 
-Please read [CONTRIBUTING](https://github.com/LordVeovis/docker-opendkim/blob/master/CONTRIBUTING) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING](https://github.com/LordVeovis/docker-dovecot/blob/master/CONTRIBUTING) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
 
