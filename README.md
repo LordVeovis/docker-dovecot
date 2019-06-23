@@ -9,7 +9,7 @@ An alpine-based docker container providing dovecot.
 This container provides dovecot.
 
 * Dovecot 2.3.6
-* Alpine 3.9
+* Alpine 3.10
 * OpenSSL 1.1.1
 
 ## Installing
